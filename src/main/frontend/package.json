@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^13.10.0"
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5"
   }
 }

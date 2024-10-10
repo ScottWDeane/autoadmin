@@ -12,5 +12,7 @@ To start from scratch:
 6. double check the application.properties file is using the correct port and user login info
 7. navigate to root, run command "mvn clean install". Will only need to be done once. This handles the back-end and front-end (npm installs, too!)
 8. recommended useful command for building and running: `mvn clean install | mvn spring-boot:run`
-9. access by navigating to http://localhost:8081 , or whatever port you changed it to
+   - if that doesn't work, you might need to just use IntelliJ's "build" and "Debug" functions to run the server, then navigate to /src/main/frontend directory and use "npm start" for the front-end
+9. access by navigating to http://localhost:8081 , or whatever port you changed it to.
+   - If you had to run the server and front-end separately, most likely you'll need to navigate to http://localhost:3000 instead
 10. default login is: user, Pa$$wor_D
